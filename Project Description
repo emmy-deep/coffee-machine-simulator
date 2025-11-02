@@ -1,0 +1,76 @@
+☕ Full Project Description: Automated Coffee and Tea Ordering System (C Language)
+The Automated Coffee and Tea Ordering System is a console-based program written in C language that simulates the working of a small vending machine for beverages. It is an interactive, menu-driven system that allows customers to order different types of drinks such as Hot Coffee, Cold Coffee, Simple Tea, and Masala Tea, along with customization options like cup size, milk preference, sugar quantity, and number of cups.
+The main objective of this project is to provide a user-friendly ordering experience while demonstrating the use of core C programming concepts such as loops, conditional statements, input/output operations, and basic arithmetic processing.
+🎯 Key Features
+Menu-based selection for beverages.
+Customizable options — users can select cup size (S, M, L), milk (Yes/No), and sugar level (0–5 tsp).
+Automatic billing system that calculates the total price based on selections and number of cups.
+Payment and change calculation — customers can enter the amount and receive change if applicable.
+Input validation — prevents invalid entries like negative cups or out-of-range sugar values.
+Customer feedback collection using fgets() for string input.
+Multi-customer support through a do-while loop for continuous transactions.
+Session summary and graceful exit after the last customer.
+🧩 Technical Overview
+Programming Language: C
+File Extension: .c
+Compiler: GCC / Turbo C / Code::Blocks IDE
+Paradigm: Procedural programming
+Main Concepts Used:
+Conditional statements (if, else if, switch)
+Loops (do-while, for)
+Input validation and error handling
+String handling (fgets, printf)
+Arithmetic calculations
+⚙️ System Workflow
+Display the drink menu.
+Take user input (drink type, cup size, milk, sugar, and number of cups).
+Validate all inputs to avoid invalid entries.
+Calculate total bill based on selections.
+Prompt user to enter money for payment.
+Display balance/change if any.
+Collect customer feedback.
+Ask if there is another customer.
+Repeat or exit the program gracefully.
+💻 Sample Interaction
+--- Welcome Customer #1 ---
+Menu:
+1. Hot Coffee
+2. Cold Coffee
+3. Simple Tea
+4. Masala Tea
+Enter your choice (1-4): 2
+How many cups? (Max 15): 3
+Choose cup size: S (Small), M (Medium), L (Large): L
+Do you want milk? (Y/N): N
+How many teaspoons of sugar per cup? (0 to 5): 2
+--- Order Summary ---
+Drink: Cold Coffee
+Size: L
+Milk: No Milk
+Sugar: 2 tsp per cup
+Cups: 3
+Total Bill: 210.00
+Enter money to pay: 250
+Your change: 40.00
+Thank you for your purchase!
+Please give us your feedback: Great service!
+Your feedback: Great service!
+Next customer? (Y/N): N
+Machine shutting down. Have a nice day!
+🧠 Learning Outcomes
+Through this project, students and beginners in C programming will learn:
+How to design interactive console applications
+How to apply decision-making and looping structures effectively
+How to handle user input and data validation
+How to work with variables, arithmetic operations, and formatted output
+How to use strings and character input for feedback and text handling
+🚀 Future Enhancements
+Add more beverages and snack options.
+Introduce discount offers or loyalty points.
+Store customer orders and feedback in a file or database.
+Implement a graphical user interface (GUI) for better visualization.
+Add error handling for non-numeric inputs.
+👨‍💻 Developed By
+Emanuel chauhan and Rajdeep kaur
+Student, chandigarh university
+📧 Email: emmanuelchauhan93@gmail.com or rajdeepkxur@gmail.com
